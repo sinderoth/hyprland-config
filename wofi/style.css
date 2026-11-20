@@ -1,0 +1,58 @@
+* {
+  font-family: JetBrainsMono Nerd Font;
+  font-size: 14px;
+}
+
+/* window stays transparent so the rounded corners of #outer-box don't show square edges */
+window {
+  background-color: transparent;
+}
+
+#outer-box {
+  padding: 16px;
+  background-color: #101010;
+  border: 1px solid #2a2a2a;
+  border-radius: 10px;
+}
+
+#input {
+  margin-bottom: 12px;
+  padding: 10px 14px;
+  border: none;
+  border-radius: 8px;
+  background-color: #1e1e1e;
+  color: #c6d0f5;
+  box-shadow: none;
+}
+
+#input:focus {
+  border: none;
+  box-shadow: none;
+}
+
+#inner-box {
+  background-color: transparent;
+}
+
+#entry {
+  padding: 8px 12px;
+  border-radius: 8px;
+}
+
+#entry:selected {
+  background-color: #2a2a2a;
+  outline: none;
+}
+
+#text {
+  color: #c6d0f5;
+  margin-left: 10px;
+}
+
+#entry:selected #text {
+  font-weight: bold;
+}
+
+#img {
+  margin-left: 4px;
+}
