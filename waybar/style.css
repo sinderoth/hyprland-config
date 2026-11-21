@@ -42,6 +42,7 @@ window#waybar {
 #pulseaudio,
 #network,
 #cpu,
+#custom-gpu,
 #memory,
 #custom-power {
   padding: 0.4rem 0.8rem;
